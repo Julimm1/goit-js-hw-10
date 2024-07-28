@@ -1,0 +1,114 @@
+form {
+    margin: 36px 156px;
+}
+
+
+.form {
+    width: 360px; 
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+label[type="number"] {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    
+} 
+.snackbar-input {
+border: 1px solid #808080;
+    border-radius: 4px;
+    max-height: 40px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input[type="number"] {
+    width: 91%;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+input[type="number"]:active {
+    border-color: #4e75ff;
+}
+
+fieldset {
+    height: 64px;
+    width: 360px;
+    border-radius: 4px;
+    color: #808080;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    border: 1px solid #808080;
+    padding: 24px 48px 8px 48px;
+    box-sizing: border-box;
+    justify-content: center;
+    position: relative;
+}
+
+legend{
+font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+fieldset legend {
+    font-size: 1em;
+    position: absolute;
+    top: -12px;
+    left: 16px;
+    background: #fff;
+    padding: 0 4px;
+}
+
+fieldset:hover, 
+fieldset:focus {
+    border: 1px solid #000;
+}
+
+.snackbar-btn {
+    border-radius: 8px;
+    padding: 8px 16px;
+    min-width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 8px 99px;
+}
+
+.snackbar-btn:hover,
+.snackbar-btn:focus {
+    background: #6c8cff;
+    color: #fff;
+}
